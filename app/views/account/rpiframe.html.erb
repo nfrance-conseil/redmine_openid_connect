@@ -22,7 +22,7 @@
     window.addEventListener("message", receiveMessage, false);
     function receiveMessage(e) {
       //if (e.origin !== target_origin) { return alert('Wrong target origin: ' + target_origin); }
-      //Correction bug pop-up intempestive
+      //Correction bug affichage pop-up intempestive
       if (e.origin !== target_origin) { return; }
       stat = e.data;
 
